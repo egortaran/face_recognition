@@ -9,7 +9,7 @@ face_detector = dlib.get_frontal_face_detector()
 
 # Указываем путь и название файла
 sDIR = os.path.dirname(__file__) + '/picture/'
-sPICTURE = 'dima_nn.jpg'
+sPICTURE = 'dima.jpg'
 
 # Записывает картинку в переменную image в виде массива numpy
 im = Image.open(sDIR + sPICTURE)
